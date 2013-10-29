@@ -1,0 +1,1 @@
+You should now have Brainfuck as an option for syntax highlighting :-)
