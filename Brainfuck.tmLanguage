@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>fileTypes</key>
+    <array>
+        <string>bf</string>
+    </array>
+    <key>foldingStartMarker</key>
+    <string>\[</string>
+    <key>foldingStopMarker</key>
+    <string>\]</string>
+    <key>name</key>
+    <string>Brainfuck</string>
+    <key>patterns</key>
+    <array>
+        <dict>
+            <key>name</key>
+            <string>constant.character.modify-value.bf</string>
+            <key>match</key>
+            <string>[+-]</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>keyword.operator.modify-pointer.bf</string>
+            <key>match</key>
+            <string>[&lt;&gt;]</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>entity.name.function.io.bf</string>
+            <key>match</key>
+            <string>[.,]</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>punctuation.definition.tag.begin.bf</string>
+            <key>match</key>
+            <string>\[</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>punctuation.definition.tag.end.bf</string>
+            <key>match</key>
+            <string>\]</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>comment.block.bf</string>
+            <key>match</key>
+            <string>[^-.,+&lt;&gt;\[\]]</string>
+        </dict>
+    </array>
+    <key>scopeName</key>
+    <string>source.bf</string>
+    <key>uuid</key>
+    <string>6D766F27-DE38-44E5-962E-E6B3F159A314</string>
+</dict>
+</plist>
